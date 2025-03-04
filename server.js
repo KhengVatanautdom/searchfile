@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json()); // Middleware to parse JSON
 app.use('/api', routes); // Load routes
 
-const PORT = 3000;
+const PORT = 5004;
 app.listen(PORT, () => {
     console.log(`🚀 Server running on http://localhost:${PORT}`);
 });
